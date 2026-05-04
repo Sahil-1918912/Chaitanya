@@ -27,7 +27,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <p className="footer-copy">© {year} Chaitanya Cold Process Soaps. Made with ❤️ in India.</p>
+        <p className="footer-copy">© {year} Chaitanya Cold Process Soaps. Made in India.</p>
       </div>
     </footer>
   )

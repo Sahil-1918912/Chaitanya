@@ -61,7 +61,9 @@ export default function Process() {
           </h2>
           <p className="section-sub">
             Every bar begins with a handful of pure, natural ingredients — cold-pressed oils,
-            herbs, and botanicals — mixed by hand and cured patiently over weeks.
+            herbs, and botanicals, mixed by hand and cured patiently over weeks.
+          </p>
+          <p className="section-sub">
             No factory lines. No shortcuts. Just honest, nourishing soap.
           </p>
         </div>

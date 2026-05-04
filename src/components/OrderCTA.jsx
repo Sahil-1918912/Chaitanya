@@ -22,7 +22,7 @@ export default function OrderCTA() {
           </h2>
           <p className="section-sub">
             Each soap is made to order with fresh, natural ingredients. Simply call us to
-            place your order — we'd love to hear from you and help you choose the perfect bar.
+            place your order, we'd love to hear from you and help you choose the perfect bar.
           </p>
 
           <div className="order-btns">

@@ -50,8 +50,8 @@ export default function Hero() {
               className="hero-img"
             />
             <div className="hero-float-card anim-float">
-              <p>Made with love</p>
-              <span>at home, by hand</span>
+              <p>Made with love ♡</p>
+              <p>At home, By Hand</p>
             </div>
           </div>
         </div>
