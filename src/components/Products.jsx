@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-import soapSandalwood from '../assets/soap-sandalwood.png'
-import soapAloevera   from '../assets/soap-aloevera.png'
-import soapManjistha  from '../assets/soap-manjistha.png'
+import soapSandalwood from '../assets/sandalwood.jpeg'
+import soapAloevera   from '../assets/aloevera.jpeg'
+import soapManjistha  from '../assets/manjishtha.jpeg'
+import soapMoringa  from '../assets/moringa.jpeg'
 
 const products = [
   {
@@ -29,7 +30,34 @@ const products = [
     image: soapManjistha,
     color: '#C46B5A',
     ingredients: ['Manjistha Root Powder', 'Cold-Pressed Coconut Oil', 'Almond Oil', 'Rose Clay', 'Rose Essential Oil', 'Turmeric Extract'],
-    benefit: 'Ayurvedic herb that brightens skin, reduces blemishes, and evens tone.',
+    benefit: 'Powerful detoxifier and skin brightener. Promotes a clear, radiant complexion.',
+  },
+  {
+    id: 'moringa',
+    name: 'Moringa',
+    tagline: 'Nourishing & Revitalizing',
+    image: soapMoringa,
+    color: '#C46B5A',
+    ingredients: ['Moringa Leaf Powder', 'Cold-Pressed Coconut Oil', 'Almond Oil', 'Green Clay', 'Lemongrass Essential Oil', 'Turmeric Extract'],
+    benefit: 'Nutrient-rich superfood that detoxifies, nourishes, and revitalizes skin for a healthy glow.',
+  },
+  {
+    id: 'lemongrass',
+    name: 'Lemongrass',
+    tagline: 'Radiant & Detoxifying',
+    image: soapMoringa,
+    color: '#C46B5A',
+    ingredients: ['Lemongrass Powder', 'Cold-Pressed Coconut Oil', 'Almond Oil', 'Green Clay', 'Lemongrass Essential Oil', 'Turmeric Extract'],
+    benefit: 'Citrusy and refreshing, lemongrass detoxifies and tones skin while imparting a radiant glow.',
+  },
+  {
+    id: 'coffee',
+    name: 'Coffee',
+    tagline: 'Exfoliating & Energizing',
+    image: soapManjistha,
+    color: '#C46B5A',
+    ingredients: ['Coffee Powder', 'Cold-Pressed Coconut Oil', 'Almond Oil', 'Green Clay', 'Lemongrass Essential Oil', 'Turmeric Extract'],
+    benefit: 'Invigorating and exfoliating, coffee grounds slough away dead skin cells while caffeine energizes and tightens skin for a refreshed complexion.',
   },
 ]
 
